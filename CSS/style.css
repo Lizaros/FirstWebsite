@@ -1,0 +1,85 @@
+* {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px; /* margin: 100px; - creates margines for all sides*/
+}
+
+
+h1 {
+   color:brown;
+}
+
+strong {
+    font-weight: normal;
+}
+
+p {
+    color:chocolate;
+    background:cornsilk;
+    font-weight: normal; /* normal, bold*/
+    text-transform: none; /* uppercase, lowercase, capitalize */
+    font-style:normal;
+    line-height: 30px; /* normal px value*/
+    letter-spacing: normal;
+    text-decoration:underline;
+    font-size: 14px;
+}
+
+body {
+    background:burlywood;
+}
+
+#quote {
+    color: brown;
+    background: aquamarine;
+}
+
+.new-class {
+        font-size: 16px;
+        background: coral;
+}
+
+a {
+    font-size: 20px; 
+    text-decoration: underline;
+}
+
+a:visited {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+a:hover {
+    color:brown;
+    text-decoration: none;
+}
+
+#container {
+    background: darkgray;
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px;
+    width: 200px;
+}
+#shape {
+    height: 400px;
+    width: 400px;
+    background: aqua;
+}
+#line {
+    height: 300px;
+    width: 100px;
+    background: brown;
+}
+
+#circle {
+    height: 200px;
+    width: 200px;
+    background: cadetblue;
+    border-radius: 100px;
+}
+
+#image {
+    height: 200px;
+}
+
